@@ -1,3 +1,11 @@
-.PropertyPage {
+@font-face{
+  font-family:'Open Sans';
+  src:url("./OpenSans-Regular.ttf");
+  src:url("./OpenSans-Regular.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
 
+.PropertyPage {
+  font-family: 'Open Sans';
 }
