@@ -29,7 +29,7 @@ class FeedbackForm extends React.PureComponent {
     this.checkValidation();
   }
 
-  handleSubmit = () => {
+  handleSubmit ()  {
     const data = {
       email: this.state.email,
       message: this.state.message
