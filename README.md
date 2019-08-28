@@ -1,68 +1,53 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Front-End Challenge
 
-## Available Scripts
+For this challenge, you'll be building a simple page in an app displaying information about a property
+using React components.  The page will have several sections, as seen in the rough structural
+mock at [/property-page-mock.png](./property-page-mock.png).  The component structure and more detailed UI decisions are
+up to you.  Obviously you're not interviewing to be a UI designer, so we won't be overly critical
+of your stylistic choices :)
 
-In the project directory, you can run:
+## The app
 
-### `npm start`
+This app was made with [Create React App](https://github.com/facebook/create-react-app) to provide
+a fast, simple bootstrapped app to work in. After cloning the source code from the Git repo,
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Install the dependencies
+```
+npm i
+```
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+Build/run the app
+```
+npm start
+```
 
-### `npm test`
+Please see the [Create React App Github page](https://github.com/facebook/create-react-app) for min
+requirements if you're having trouble starting the app.  You should have at minimum node 8.16.0 and npm 6.10.1.
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## The page sections
 
-### `npm run build`
+Please build:
+1. An app logo, justified left
+2. A photo of the property
+3. A 2-column property details section with a label and value for each property detail item
+   provided in the data object. On click of the "edit" CTA, form fields should appear inline,
+   providing the ability to edit the values in place. "text" or "number" input types can be
+   used for all the inputs.
+4. A comparable properties section displaying property 'cards' inline, each with a
+   photo and abbreviated propety details (the user should be able to scroll to the
+   right and view more property cards). An actual mock is provided for this section,
+   so please try to make this section match the mock.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+As a bonus:
+Make the page content size responsively to fit a mobile viewport width.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## The data
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To populate the page, mock data has been provided in a JSON object located at [src/data.js](./src/data.js).
 
-### `npm run eject`
+## Level of effort and finishing steps
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This exercise is designed to take between 2 - 4 hours of time.  You'll submit your work using
+Git, so please commit your code and push it up when you're finished.  Reaching out to the
+person who sent you this exercise via email will let us know that your code is ready to review.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
