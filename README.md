@@ -9,7 +9,7 @@ of your stylistic choices :)
 ## The app
 
 This app was made with [Create React App](https://github.com/facebook/create-react-app) to provide
-a fast, simple bootstrapped app to work in. After cloning the source code from the Git repo,
+a fast, simple bootstrapped app to work in. After cloning the source code from this repo,
 
 Install the dependencies
 ```
@@ -27,7 +27,7 @@ requirements if you're having trouble starting the app.  You should have at mini
 ## The page sections
 
 Please build:
-1. An app logo, justified left
+1. A heading containing the [app logo](./images/site-logo.png), property street address, and property value
 2. A photo of the property
 3. A 2-column property details section with a label and value for each property detail item
    provided in the data object. On click of the "edit" CTA, form fields should appear inline,
@@ -47,7 +47,7 @@ To populate the page, mock data has been provided in a JSON object located at [s
 
 ## Level of effort and finishing steps
 
-This exercise is designed to take between 2 - 4 hours of time.  You'll submit your work using
-Git, so please commit your code and push it up when you're finished.  Reaching out to the
+This exercise is designed to take between 2 - 4 hours of time.  You'll submit your work to this repo,
+so please commit your code and push it up when you're finished.  Reaching out to the
 person who sent you this exercise via email will let us know that your code is ready to review.
 
