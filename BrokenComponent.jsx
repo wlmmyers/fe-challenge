@@ -1,14 +1,14 @@
 import { emailValidator } from '@hc/component-lib';
 import { string, object, func } from 'prop-types';
 
-class FeedbackForm extends React.PureComponent {
-  static propTypes = {
-    email: string,
-    theme: object,
-    handleSubmit: func.isRequired,
-    apiError: string
-  }
+const PropTypes = {
+  email: string,
+  theme: object,
+  handleSubmit: func.isRequired,
+  apiError: string
+};
 
+class FeedbackForm extends React.PureComponent {
   componentWillMount () {
     this.state = {
       email: '',
@@ -96,5 +96,7 @@ class FeedbackForm extends React.PureComponent {
     );
   }
 }
+
+FeedbackForm.propTypes = PropTypes;
 
 export default FeedbackForm;
